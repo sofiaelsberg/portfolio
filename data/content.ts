@@ -17,14 +17,7 @@ export const projects: Project[] = [
     image: "/bryst-site.png",
     tags: ["Live", "Full design & build"],
     role: "Independent freelance project — sole designer and developer",
-    stack: [
-      "Next.js",
-      "React",
-      "TypeScript",
-      "Tailwind CSS",
-      "Motion",
-      "Lucide",
-    ],
+    stack: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Motion", "Lucide", "Vercel"],
     bullets: [
       "Designed the full visual identity and page structure from nothing but a copy document",
       "Built every page front to back and shipped it live",
@@ -52,16 +45,7 @@ export const projects: Project[] = [
     image: "/faundit-site.png",
     tags: ["Private product", "Frontend intern"],
     role: "Frontend developer intern, team of three",
-    stack: [
-      "React",
-      "TypeScript",
-      "Vite",
-      "Material UI",
-      "Radix UI",
-      "Tailwind",
-      "Stripe",
-      "i18next",
-    ],
+    stack: ["React", "TypeScript", "Vite", "Material UI", "Radix UI", "Tailwind", "Stripe", "i18next"],
     bullets: [
       "Worked only on the user portal",
       "Implementation of responsive design solutions, ensuring compatability across all devices",
@@ -136,7 +120,7 @@ export const timeline: TimelineEntry[] = [
   {
     date: "BEFORE 2019",
     title: "9 months in Bali",
-    copy: "Lived there before starting my design education.",
+    copy: "Lived there before starting my education.",
   },
 ];
 
@@ -148,33 +132,13 @@ export type Skill = {
 export const skills: Skill[] = [
   {
     title: "Core",
-    items: [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "TypeScript",
-      "React",
-      "Tailwind",
-      "ShadCN",
-      "Material UI",
-    ],
+    items: ["HTML", "CSS", "JavaScript", "TypeScript", "React", "Tailwind", "ShadCN", "Material UI"],
   },
   { title: "Design", items: ["Figma", "Webflow", "UX/UI"] },
-  { title: "Also touched", items: ["Vue.js", "React Native", "WordPress"] },
-  { title: "Workflow", items: ["Git / GitHub", "Copilot", "Claude"] },
+  { title: "Workflow", items: ["Git / GitHub", "Vercel", "Copilot", "Claude"] },
 ];
 
-export const marqueeItems = [
-  "React",
-  "TypeScript",
-  "Webflow",
-  "Figma",
-  "Tailwind",
-  "UX/UI",
-  "Vue.js",
-  "Git",
-  "Self-taught",
-];
+export const marqueeItems = ["React", "TypeScript", "Webflow", "Figma", "Tailwind", "UX/UI", "Vue.js", "Git"];
 
 export const heroWords = [
   "Frontend",

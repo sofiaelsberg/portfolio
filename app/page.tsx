@@ -442,8 +442,7 @@ export default function Home() {
             </h2>
             <p className="mt-5 text-lg text-(--ink-soft)">
               Different medium, same underlying thing: an eye for detail and a
-              genuine love of making something look good. Self-taught, same as
-              the code.
+              genuine love of making something look good. Self-taught.
             </p>
           </Reveal>
           <div className="makeup-grid mt-17.5 grid grid-cols-4 gap-5.5">
