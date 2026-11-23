@@ -57,7 +57,7 @@ export const projects: Project[] = [
   {
     n: "04",
     title: "TOBA Advice",
-    image: "/toba-site.png",
+    image: "/toba-next-site.png",
     reverse: true,
     tags: ["Launching soon", "Brand, Webflow & Next.js"],
     role: "Web developer and designer, in-house. Rebuilt the site in Next.js with Claude",
@@ -66,7 +66,6 @@ export const projects: Project[] = [
       "Built the first website and visual identity from scratch in Webflow",
       "Rebuilt the whole site in Next.js with Claude: I designed it in Claude Design, reviewed every change and made the design and content calls",
       "Interactive explainers: money-flow diagrams, count-up stats and a fee calculator",
-      "Built to WCAG 2.1 AA, with all copy kept out of the components",
       "Still producing their marketing graphics: LinkedIn posts, newsletters, event invites",
     ],
   },
