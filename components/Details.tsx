@@ -1,3 +1,4 @@
+import { ArrowUpRight } from "lucide-react";
 import type { Project } from "@/data/content";
 
 export function Details({ project }: { project: Project }) {
@@ -43,6 +44,19 @@ export function Details({ project }: { project: Project }) {
             ))}
           </ul>
         </div>
+        {project.repo && (
+          <div>
+            <a
+              className="btn btn-ghost gap-2 px-5! py-2.5! text-sm!"
+              href={project.repo}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View code on GitHub
+              <ArrowUpRight aria-hidden="true" size={16} />
+            </a>
+          </div>
+        )}
       </div>
     </div>
   );

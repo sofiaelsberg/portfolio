@@ -6,6 +6,7 @@ export type Project = {
   role: string;
   stack: string[];
   bullets: string[];
+  repo?: string;
   phone?: boolean;
   reverse?: boolean;
 };
@@ -58,6 +59,7 @@ export const projects: Project[] = [
     n: "04",
     title: "TOBA Advice",
     image: "/toba-next-site.png",
+    repo: "https://github.com/sofiaelsberg/toba",
     reverse: true,
     tags: ["Launching soon", "Brand, Webflow & Next.js"],
     role: "Web developer and designer, in-house. Rebuilt the site in Next.js with Claude",
