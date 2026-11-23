@@ -59,12 +59,14 @@ export const projects: Project[] = [
     title: "TOBA Advice",
     image: "/toba-site.png",
     reverse: true,
-    tags: ["Live", "Brand & website"],
-    role: "Web developer and designer, in-house",
-    stack: ["Webflow", "Figma"],
+    tags: ["Launching soon", "Brand, Webflow & Next.js"],
+    role: "Web developer and designer, in-house. Rebuilt the site in Next.js with Claude",
+    stack: ["Next.js", "React", "TypeScript", "Tailwind CSS", "shadcn/ui", "Motion", "Vercel", "Webflow", "Figma"],
     bullets: [
-      "Built the website and visual identity from scratch in Webflow",
-      "Designed the UX/UI and the whole brand system",
+      "Built the first website and visual identity from scratch in Webflow",
+      "Rebuilt the whole site in Next.js with Claude: I designed it in Claude Design, reviewed every change and made the design and content calls",
+      "Interactive explainers: money-flow diagrams, count-up stats and a fee calculator",
+      "Built to WCAG 2.1 AA, with all copy kept out of the components",
       "Still producing their marketing graphics: LinkedIn posts, newsletters, event invites",
     ],
   },
@@ -85,7 +87,7 @@ export const timeline: TimelineEntry[] = [
   {
     date: "AUG 2024 – PRESENT",
     title: "Web Developer / Designer, TOBA Advice",
-    copy: "Built TOBA Advice's website and visual identity from scratch in Webflow, and I've kept producing their marketing graphics since: LinkedIn posts, newsletters, event invites.",
+    copy: "Built TOBA Advice's website and visual identity from scratch in Webflow, then rebuilt the site in Next.js with Claude in 2026. I also produce their marketing graphics: LinkedIn posts, newsletters, event invites.",
   },
   {
     date: "AUG 2024 – JAN 2025",
@@ -132,7 +134,7 @@ export type Skill = {
 export const skills: Skill[] = [
   {
     title: "Core",
-    items: ["HTML", "CSS", "JavaScript", "TypeScript", "React", "Tailwind", "ShadCN", "Material UI"],
+    items: ["HTML", "CSS", "JavaScript", "TypeScript", "React", "Next.js", "Tailwind", "ShadCN", "Material UI"],
   },
   { title: "Design", items: ["Figma", "Webflow", "UX/UI"] },
   { title: "Workflow", items: ["Git / GitHub", "Vercel", "Copilot", "Claude"] },
